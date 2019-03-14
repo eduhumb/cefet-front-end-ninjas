@@ -1,0 +1,70 @@
+/* Stylesheet */
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img:not([alt*="Logo"]){
+  border-radius: 10px;
+}
+
+img[alt*="Logo"] {
+  width: 200px;
+}
+
+iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  font-family: monospace;
+}
+
+h2 {
+  font-family: sans-serif;
+}
+
+/* 5 */
+
+a:link{
+  text-decoration: none;
+}
+
+a:visited{
+  color: #a766a7;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: black;
+}
+
+a:active{
+  color: lightblue
+}
+
+/* 6 */
+a {
+  background-image: url(../img/globo.png);
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+/* 7 */
+.nota {
+  opacity: 0.65;
+}
+
+/* 8 */
+p > strong {
+  font-size: 20px;
+  background-color: pink;
+}
+
+p > em {
+  font-size: 20px;
+}
